@@ -607,7 +607,7 @@ comment (starting with '"') after the `:!` command.
 Vim uses temporary files for filtering, generating diffs and also for
 tempname().  For Unix, the file will be in a private directory (only
 accessible by the current user) to avoid security problems (e.g., a symlink
-attack or other people reading your file).  When Vim exits the directory and
+attack or other people reading your file).  When Vim exits the directory
 all files in it are deleted.  When Vim has the setuid bit set this may cause
 problems, the temp file is owned by the setuid user but the filter command
 probably runs as the original user.
